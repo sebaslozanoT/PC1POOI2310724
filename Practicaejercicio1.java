@@ -34,12 +34,12 @@ public class Practicaejercicio1 {
             if (resultado == suma){
                 System.out.println("Correcto");
             }else {
-                System.out.println("Disculpa, respuesta equivocada. La respuesta correcta es"+ suma + ".");
+                System.out.println("Disculpa, respuesta equivocada. La respuesta correcta es" + suma + ".");
             }
             
         }catch(Exception e){
             System.out.println("Error");
-   
+            System.exit(0);
         }     
         
     }
